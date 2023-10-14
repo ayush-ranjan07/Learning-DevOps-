@@ -1,0 +1,58 @@
+Go, commonly referred to as Golang, is an open-source, statically typed, and compiled programming language created by Google engineers Robert Griesemer, Rob Pike, and Ken Thompson. 
+It was designed to address the challenges of modern software development, aiming for simplicity, efficiency, and performance.
+
+Why Go programming language?
+
+To answer this question we have to understand that during the years the infrastructure has changed a lot.It became more scalable and distributed. The capacity has also increased with great factor and the infrastructure has became more dynamic.
+But as the years passed the existing programming languagea did not take the full advantage of the change in the infrastructure. With existing programming languages the application execute one task at a time but with infrastructure imporvements 
+it can execute more than one processes simultaneously. For example in Google Drive the downloading and uploading can be done at a same time which is parallel tasks. 
+
+To support these Go is introduced. Go was designed to run on multiple cores and built to support concurrency and also concurrency in go is cheap and easy. 
+
+Go is used on the server side and many cloud technologies are written in go such as docker, HashiCorpVault, kubernetes, Cockroach DB.
+
+
+1. Simplicity and Clarity:
+   - Go's design emphasizes simplicity and readability, making it easy for developers to write clean and understandable code.
+   - It has a minimalistic and consistent syntax, reducing the potential for errors.
+
+2. Strong Typing:
+   - Go is statically typed, meaning that variable types are explicitly declared at compile-time.
+   - This helps catch type-related errors early in the development process.
+
+3. Concurrency Support:
+   - Go has built-in support for concurrent programming using goroutines and channels.
+   - Goroutines are lightweight threads that enable efficient parallelism, making it easier to write concurrent and scalable applications.
+
+4. Efficiency and Performance:
+   - Go compiles to native machine code, which leads to high-performance applications.
+   - Its runtime garbage collector manages memory efficiently, reducing manual memory management concerns.
+
+5. Standard Library:
+   - Go's standard library is extensive and provides tools for various tasks, such as networking, cryptography, and web development.
+   - This reduces the need for third-party libraries in many cases.
+
+6. Cross-Platform Compatibility:
+   - Go is available on multiple platforms, making it a versatile choice for building software that can run on different operating systems.
+
+7. Open Source and Community Support:
+   - Go is open source and has a vibrant community that contributes to its development and maintains a rich ecosystem of libraries and frameworks.
+
+
+
+
+Basic Syntax of Golang
+
+
+package main
+// The 'package main' declaration is necessary for creating an executable Go program.
+
+import "fmt"
+// We import the "fmt" package, which provides functions for formatting and printing text.
+
+func main() {
+// We define the 'main' function, which is the entry point of the program.
+	fmt.Printf("Hello, World!")
+// This line uses the 'Printf' function from the "fmt" package to print "Hello, World!" to the standard output.
+}
+// The closing curly brace '}' marks the end of the 'main' function.
