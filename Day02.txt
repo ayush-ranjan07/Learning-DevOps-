@@ -1,0 +1,62 @@
+                                                                    Data Types in Go (Golang)     
+
+
+Data types are fundamental in any programming language as they define the kind of data a variable can hold and the operations that can be performed on it. 
+Go, often referred to as Golang, offers a rich set of data types to accommodate a wide range of values and operations.
+
+Primitive Data Types:
+
+1. int:
+   - Represents signed integers. The size of 'int' depends on the underlying platform (32 or 64 bits).
+
+2. uint:
+   - Represents unsigned integers. Like 'int', the size varies based on the platform.
+
+3. float32, float64:
+   - Represent single-precision and double-precision floating-point numbers, respectively.
+
+4. bool:
+   - Represents a boolean value, either 'true' or 'false'.
+
+5. string:
+   - Represents a sequence of characters. Strings are immutable in Go.
+
+6. byte (uint8):
+   - Used to store individual bytes. Often used in handling binary data.
+
+7. rune (int32):
+   - Represents a Unicode character. Useful for internationalization and text processing.
+
+Composite Data Types:
+
+1. Arrays:
+   - Fixed-size collections of elements of the same data type.
+   - Defined using '[size]type'.
+
+2. Slices:
+   - Dynamic arrays with flexible sizes. Slices are more commonly used than arrays.
+   - Created using '[]type'.
+
+3. Maps:
+   - Key-value pairs where keys are unique.
+   - Created using 'map[keyType]valueType'.
+
+4. Structs:
+   - Custom data types composed of fields with different data types.
+   - Used for modeling complex data structures.
+
+Derived Data Types:
+
+1. Pointers:
+   - Store the memory address of a value. Used for efficient memory management and working with functions.
+
+2. Interfaces:
+   - Define a set of method signatures that a type must implement to satisfy the interface.
+   - Promotes code reusability and abstraction.
+
+Type Conversion:
+Go requires explicit type conversion to assign a value of one data type to another. For example, converting an 'int' to a 'float64' or vice versa.
+
+Zero Values:
+Each data type in Go has a default zero value. For example, the zero value for 'int' is 0, and for 'string' is an empty string "".
+
